@@ -3,6 +3,6 @@ version: '3'
 services:
   app:
     build: .
-    #image: gksmf/skycollection:3.0
-    #ports:
-    #  - "7338:5000"
+    image: gunheeeleee/team5:1.0
+    ports:
+      - "7333:5000"
